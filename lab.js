@@ -20,6 +20,11 @@ var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
 
 ////////// PROBLEM 2 //////////
+/*
+  Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
+*/
+
+//CODE HERE
 if (amysAge > brittanisAge){
   console.log (`amy is older`)
 }else if (amysAge < brittanisAge){
@@ -27,12 +32,6 @@ if (amysAge > brittanisAge){
 }else if ( amysAge === brittanisAge){
   console.log (`they are the same age`)
 }
-/*
-  Using an if statement and a comparison operator, create code that will check if Amy or Brittani is older, and then console.log '{name} is older'. Hint: Consider what will happen if they are the same age. Handle this situation.
-*/
-
-//CODE HERE
-
 ////////// PROBLEM 3 //////////
 
 /*
@@ -56,7 +55,13 @@ let rain = true;
 */
 
 //CODE HERE
-
+if (temperature >= 80){
+  console.log(`wear a t-shirt and take an umbrella`)
+}else if (temperature >= 60 && temperature <= 80){
+  console.log(`wear a rain-jacket`)
+}else if (temperature <= 60){
+  console.log(`wear a jacket and carry an umbrella`)
+}
 ////////// PROBLEM 5 //////////
 
 /*
